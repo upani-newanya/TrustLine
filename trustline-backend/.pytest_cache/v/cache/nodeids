@@ -1,0 +1,10 @@
+[
+  "test_action_flow.py::test_bank_fraud_immediate_intake",
+  "test_action_flow.py::test_blackmail_detection",
+  "test_action_flow.py::test_emotional_no_incident_stays_support",
+  "test_action_flow.py::test_field_progression",
+  "test_action_flow.py::test_hard_crisis_pauses_intake",
+  "test_action_flow.py::test_intent_override_without_incident",
+  "test_action_flow.py::test_photo_leak_immediate_intake",
+  "test_action_flow.py::test_scam_detection"
+]
