@@ -1259,85 +1259,32 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
-"[project]/components/ui/input.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"[project]/components/ui/textarea.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
-    "Input",
-    ()=>Input
+    "Textarea",
+    ()=>Textarea
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/utils.ts [app-client] (ecmascript)");
 ;
 ;
-function Input({ className, type, ...props }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-        type: type,
-        "data-slot": "input",
-        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm', 'focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]', 'aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive', className),
+function Textarea({ className, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+        "data-slot": "textarea",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('border-input placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content min-h-16 w-full rounded-md border bg-transparent px-3 py-2 text-base shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm', className),
         ...props
     }, void 0, false, {
-        fileName: "[project]/components/ui/input.tsx",
+        fileName: "[project]/components/ui/textarea.tsx",
         lineNumber: 7,
         columnNumber: 5
     }, this);
 }
-_c = Input;
+_c = Textarea;
 ;
 var _c;
-__turbopack_context__.k.register(_c, "Input");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
-}),
-"[project]/components/ui/badge.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
-
-__turbopack_context__.s([
-    "Badge",
-    ()=>Badge,
-    "badgeVariants",
-    ()=>badgeVariants
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$slot$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@radix-ui/react-slot/dist/index.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$class$2d$variance$2d$authority$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/class-variance-authority/dist/index.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/utils.ts [app-client] (ecmascript)");
-;
-;
-;
-;
-const badgeVariants = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$class$2d$variance$2d$authority$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cva"])('inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden', {
-    variants: {
-        variant: {
-            default: 'border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90',
-            secondary: 'border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90',
-            destructive: 'border-transparent bg-destructive text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60',
-            outline: 'text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground'
-        }
-    },
-    defaultVariants: {
-        variant: 'default'
-    }
-});
-function Badge({ className, variant, asChild = false, ...props }) {
-    const Comp = asChild ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$slot$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slot"] : 'span';
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Comp, {
-        "data-slot": "badge",
-        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])(badgeVariants({
-            variant
-        }), className),
-        ...props
-    }, void 0, false, {
-        fileName: "[project]/components/ui/badge.tsx",
-        lineNumber: 38,
-        columnNumber: 5
-    }, this);
-}
-_c = Badge;
-;
-var _c;
-__turbopack_context__.k.register(_c, "Badge");
+__turbopack_context__.k.register(_c, "Textarea");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -1418,201 +1365,35 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
-"[project]/lib/api.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
+"[project]/components/ui/label.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
-    "apiFetch",
-    ()=>apiFetch,
-    "default",
-    ()=>__TURBOPACK__default__export__
+    "Label",
+    ()=>Label
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-const API_BASE = ("TURBOPACK compile-time value", "http://localhost:8000/api/v1") || "http://localhost:8000/api/v1";
-async function apiFetch(path, options = {}) {
-    if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
-    ;
-    const token = localStorage.getItem("access_token");
-    const headers = {};
-    // Copy existing headers
-    if (options.headers) {
-        const h = options.headers;
-        Object.keys(h).forEach((k)=>{
-            headers[k] = h[k];
-        });
-    }
-    if (token) headers["Authorization"] = `Bearer ${token}`;
-    if (!(options.body instanceof FormData) && !headers["Content-Type"]) {
-        headers["Content-Type"] = "application/json";
-    }
-    const res = await fetch(`${API_BASE}${path}`, {
-        ...options,
-        headers
-    });
-    if (res.status === 401) {
-        localStorage.removeItem("access_token");
-        window.location.href = "/login";
-        throw new Error("Unauthorized");
-    }
-    if (!res.ok) {
-        const text = await res.text();
-        throw new Error(text || `Request failed: ${res.status}`);
-    }
-    // Handle 204 No Content
-    if (res.status === 204) return undefined;
-    return res.json();
-}
-const __TURBOPACK__default__export__ = apiFetch;
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
-}),
-"[project]/lib/auth.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
-
-__turbopack_context__.s([
-    "fetchCurrentUser",
-    ()=>fetchCurrentUser,
-    "getCurrentUserRole",
-    ()=>getCurrentUserRole,
-    "getStoredRole",
-    ()=>getStoredRole,
-    "isAdmin",
-    ()=>isAdmin,
-    "isAuthenticated",
-    ()=>isAuthenticated,
-    "isUser",
-    ()=>isUser,
-    "login",
-    ()=>login,
-    "logout",
-    ()=>logout,
-    "register",
-    ()=>register
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$api$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/api.ts [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$label$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@radix-ui/react-label/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/utils.ts [app-client] (ecmascript)");
+'use client';
 ;
-const API_BASE = ("TURBOPACK compile-time value", "http://localhost:8000/api/v1") || "http://localhost:8000/api/v1";
-function isAuthenticated() {
-    if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
-    ;
-    return !!localStorage.getItem('access_token');
+;
+;
+function Label({ className, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$label$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Root"], {
+        "data-slot": "label",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50', className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/components/ui/label.tsx",
+        lineNumber: 13,
+        columnNumber: 5
+    }, this);
 }
-function getStoredRole() {
-    if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
-    ;
-    return localStorage.getItem('user_role');
-}
-function getCurrentUserRole() {
-    return getStoredRole();
-}
-function isAdmin() {
-    return getStoredRole() === 'admin';
-}
-function isUser() {
-    return getStoredRole() === 'user';
-}
-async function login(email, password) {
-    try {
-        const form = new URLSearchParams();
-        form.append("username", email);
-        form.append("password", password);
-        const res = await fetch(`${API_BASE}/auth/login`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded"
-            },
-            body: form
-        });
-        if (!res.ok) {
-            const errText = await res.text();
-            let msg = 'Invalid email or password';
-            try {
-                const parsed = JSON.parse(errText);
-                msg = parsed.detail || msg;
-            } catch  {}
-            return {
-                success: false,
-                message: msg
-            };
-        }
-        const data = await res.json();
-        localStorage.setItem('access_token', data.access_token);
-        // Fetch user profile to get role
-        const user = await fetchCurrentUser();
-        if (user) {
-            localStorage.setItem('user_role', user.role);
-            return {
-                success: true,
-                message: 'Login successful',
-                role: user.role
-            };
-        }
-        return {
-            success: true,
-            message: 'Login successful'
-        };
-    } catch (err) {
-        return {
-            success: false,
-            message: err.message || 'Login failed'
-        };
-    }
-}
-async function register(data) {
-    try {
-        const res = await fetch(`${API_BASE}/auth/register`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(data)
-        });
-        if (!res.ok) {
-            const errText = await res.text();
-            let msg = 'Registration failed';
-            try {
-                const parsed = JSON.parse(errText);
-                msg = parsed.detail || msg;
-            } catch  {}
-            return {
-                success: false,
-                message: msg
-            };
-        }
-        const result = await res.json();
-        localStorage.setItem('access_token', result.access_token);
-        // Fetch user profile
-        const user = await fetchCurrentUser();
-        if (user) {
-            localStorage.setItem('user_role', user.role);
-        }
-        return {
-            success: true,
-            message: 'Account created successfully'
-        };
-    } catch (err) {
-        return {
-            success: false,
-            message: err.message || 'Registration failed'
-        };
-    }
-}
-async function fetchCurrentUser() {
-    try {
-        const user = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$api$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('/users/me');
-        return user;
-    } catch  {
-        return null;
-    }
-}
-function logout() {
-    if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
-    ;
-    localStorage.removeItem('access_token');
-    localStorage.removeItem('user_role');
-}
+_c = Label;
+;
+var _c;
+__turbopack_context__.k.register(_c, "Label");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -1632,20 +1413,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$navbar$2e$tsx_
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/footer.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/button.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/card.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/input.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/badge.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/textarea.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/alert.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$auth$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/auth.ts [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$api$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/api.ts [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/label.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mock$2d$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/mock-data.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/message-circle.js [app-client] (ecmascript) <export default as MessageCircle>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/send.js [app-client] (ecmascript) <export default as Send>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$upload$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Upload$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/upload.js [app-client] (ecmascript) <export default as Upload>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$moon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Moon$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/moon.js [app-client] (ecmascript) <export default as Moon>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sun$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sun$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/sun.js [app-client] (ecmascript) <export default as Sun>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-alert.js [app-client] (ecmascript) <export default as AlertCircle>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2d$text$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FileText$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/file-text.js [app-client] (ecmascript) <export default as FileText>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-check-big.js [app-client] (ecmascript) <export default as CheckCircle>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/loader.js [app-client] (ecmascript) <export default as Loader>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Bot$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/bot.js [app-client] (ecmascript) <export default as Bot>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/user.js [app-client] (ecmascript) <export default as User>");
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
@@ -1661,25 +1441,44 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-;
 function ChatbotPage() {
     _s();
+    const [step, setStep] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('welcome');
     const [messages, setMessages] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    const [inputText, setInputText] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
     const [isDarkMode, setIsDarkMode] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const [sessionId, setSessionId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [sessionState, setSessionState] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [isInitializing, setIsInitializing] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
+    const [caseId, setCaseId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    // Form state
+    const [reporterName, setReporterName] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [userMessage, setUserMessage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [incidentType, setIncidentType] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [platform, setPlatform] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [description, setDescription] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [uploadedFiles, setUploadedFiles] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [isGuest, setIsGuest] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [reportedAt, setReportedAt] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(new Date());
     const messagesEndRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const inputRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
-    // Initialize chat session
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ChatbotPage.useEffect": ()=>{
-            setIsGuest(!(0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$auth$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isAuthenticated"])());
-            initSession();
+            const currentUser = (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mock$2d$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getCurrentUser"])();
+            if (currentUser) {
+                setIsGuest(false);
+            } else {
+                setIsGuest(true);
+                setReporterName('Guest Reporter');
+            }
+            // Add welcome message
+            const welcomeMsg = {
+                id: '1',
+                type: 'bot',
+                content: `Welcome to TrustLine Support. I'm here to help you report cyberbullying, online harassment, or privacy violations. Everything you share is confidential and secure. How are you feeling right now?`,
+                timestamp: new Date(),
+                isQuickReply: true
+            };
+            setMessages([
+                welcomeMsg
+            ]);
         }
     }["ChatbotPage.useEffect"], []);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
@@ -1691,95 +1490,159 @@ function ChatbotPage() {
     }["ChatbotPage.useEffect"], [
         messages
     ]);
-    const initSession = async ()=>{
-        try {
-            setIsInitializing(true);
-            const data = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$api$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])('/chatbot/sessions', {
-                method: 'POST'
-            });
-            setSessionId(data.session_id);
-            // Load any existing messages
-            const history = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$api$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(`/chatbot/sessions/${data.session_id}/messages`);
-            if (history && history.length > 0) {
-                setMessages(history);
-            }
-            // Load session state
-            const state = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$api$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(`/chatbot/sessions/${data.session_id}/state`);
-            setSessionState(state);
-        } catch (err) {
-            console.error('Failed to initialize chat session:', err);
-        } finally{
-            setIsInitializing(false);
-        }
-    };
-    const handleSendMessage = async (e)=>{
-        e.preventDefault();
-        if (!inputText.trim() || !sessionId || isLoading) return;
-        const userText = inputText.trim();
-        setInputText('');
-        setIsLoading(true);
-        // Optimistically add user message
-        const tempUserMsg = {
-            id: `temp-${Date.now()}`,
-            sender: 'user',
-            content: userText,
-            created_at: new Date().toISOString()
+    const addMessage = (type, content, isQuickReply = false)=>{
+        const newMsg = {
+            id: Date.now().toString(),
+            type,
+            content,
+            timestamp: new Date(),
+            isQuickReply
         };
         setMessages((prev)=>[
                 ...prev,
-                tempUserMsg
+                newMsg
             ]);
-        try {
-            const response = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$api$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(`/chatbot/sessions/${sessionId}/messages`, {
-                method: 'POST',
-                body: JSON.stringify({
-                    content: userText
-                })
-            });
-            // Replace temp message with real ones
-            setMessages((prev)=>{
-                const filtered = prev.filter((m)=>m.id !== tempUserMsg.id);
-                return [
-                    ...filtered,
-                    response.user_message,
-                    response.bot_message
-                ];
-            });
-            // Update session state
-            setSessionState({
-                mode: response.mode,
-                incident_type: response.incident_type,
-                complaint_submitted: response.complaint_submitted,
-                tracking_id: response.tracking_id
-            });
-        } catch (err) {
-            console.error('Failed to send message:', err);
-            // Remove optimistic message on error
-            setMessages((prev)=>prev.filter((m)=>m.id !== tempUserMsg.id));
-        } finally{
-            setIsLoading(false);
-            inputRef.current?.focus();
+    };
+    const handleQuickReply = (reply)=>{
+        addMessage('user', reply);
+        if (step === 'welcome') {
+            addMessage('bot', 'Thank you for reaching out. Let\'s get started with gathering some information.');
+            setTimeout(()=>{
+                addMessage('bot', 'What type of incident are you reporting?', true);
+                setStep('incident-type');
+            }, 500);
+        } else if (step === 'safety-check') {
+            if (reply.includes('concerned')) {
+                addMessage('bot', 'Your safety is our priority. Please reach out to a trusted adult, school counselor, or call our support line at 1-800-TRUSTLINE. We\'re here to help.');
+            }
+            setTimeout(()=>{
+                addMessage('bot', 'Now, what platform did this happen on?', true);
+                setStep('platform');
+            }, 1000);
+        } else if (step === 'incident-type') {
+            setIncidentType(reply);
+            addMessage('bot', 'Thank you. What platform did this happen on?', true);
+            setStep('platform');
+        } else if (step === 'platform') {
+            setPlatform(reply);
+            addMessage('bot', 'Now, please describe what happened. Include as much detail as you\'re comfortable sharing.');
+            setStep('details');
         }
     };
-    const getModeLabel = (mode)=>{
-        switch(mode){
-            case 'guided_intake':
-                return 'Filing your complaint...';
-            case 'vulnerable_support':
-                return 'Support mode';
-            case 'hard_crisis':
-                return 'Crisis support';
-            case 'post_complaint':
-                return 'Complaint filed';
+    const handleSubmitDetails = (e)=>{
+        e.preventDefault();
+        if (!description.trim()) return;
+        addMessage('user', description);
+        setDescription('');
+        addMessage('bot', 'Thank you for sharing. You can now upload evidence like screenshots, videos, or messages. This helps us investigate your case.');
+        setTimeout(()=>{
+            addMessage('bot', 'Do you have any evidence to upload?', true);
+            setStep('evidence');
+        }, 500);
+    };
+    const handleFileUpload = (e)=>{
+        const files = e.currentTarget.files;
+        if (!files) return;
+        const newFiles = Array.from(files);
+        if (uploadedFiles.length + newFiles.length > 10) {
+            addMessage('bot', 'You can upload a maximum of 10 files per report. Please remove some files first.');
+            return;
+        }
+        setUploadedFiles((prev)=>[
+                ...prev,
+                ...newFiles
+            ]);
+        addMessage('user', `Uploaded ${newFiles.length} file(s)`);
+    };
+    const removeFile = (index)=>{
+        setUploadedFiles((prev)=>prev.filter((_, i)=>i !== index));
+    };
+    const handleSubmitReport = async ()=>{
+        if (!incidentType || !platform || !description) {
+            addMessage('bot', 'Please provide all required information before submitting.');
+            return;
+        }
+        setIsLoading(true);
+        addMessage('user', 'Submit my report');
+        setTimeout(()=>{
+            setStep('review');
+            addMessage('bot', 'Perfect! Let me review your report information...');
+            setTimeout(()=>{
+                // Create the report
+                const newCaseId = (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mock$2d$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["generateCaseId"])();
+                setCaseId(newCaseId);
+                const currentUser = (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mock$2d$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getCurrentUser"])();
+                const userId = currentUser?.userId || `guest-${Date.now()}`;
+                const reportData = {
+                    id: `report-${Date.now()}`,
+                    caseId: newCaseId,
+                    userId,
+                    reporterName: reporterName || 'Guest Reporter',
+                    incidentType,
+                    platform,
+                    description,
+                    status: 'pending',
+                    priority: incidentType.includes('threat') || incidentType.includes('leak') ? 'high' : 'medium',
+                    evidence: [],
+                    createdAt: new Date().toISOString(),
+                    submittedAt: new Date().toISOString(),
+                    messages: [
+                        {
+                            id: 'initial-msg',
+                            sender: 'user',
+                            senderName: reporterName || 'Guest',
+                            content: `Report submitted for ${incidentType} incident on ${platform}`,
+                            createdAt: new Date().toISOString()
+                        }
+                    ],
+                    internalNotes: []
+                };
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mock$2d$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addReport"])(reportData);
+                setStep('submitted');
+                addMessage('bot', `Excellent! Your report has been submitted successfully. Your Case ID is: **${newCaseId}**\n\nWe've assigned your case to a specialized reviewer who will investigate within 24 hours. You'll receive updates via secure messages in your account.\n\nThank you for helping us create a safer online community.`, false);
+                setIsLoading(false);
+            }, 1000);
+        }, 800);
+    };
+    const getQuickReplies = ()=>{
+        switch(step){
+            case 'welcome':
+                return [
+                    'I\'m doing okay',
+                    'I\'m very concerned',
+                    'I need immediate help'
+                ];
+            case 'incident-type':
+                return [
+                    'Cyberbullying',
+                    'Online Harassment',
+                    'Private Media Leak',
+                    'Threatening Messages',
+                    'Other'
+                ];
+            case 'platform':
+                return [
+                    'Social Media',
+                    'Email',
+                    'Messaging App',
+                    'Gaming Platform',
+                    'Other Online Platform'
+                ];
+            case 'evidence':
+                return [
+                    'Upload Evidence',
+                    'Skip for Now',
+                    'Ready to Submit'
+                ];
             default:
-                return '';
+                return [];
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/app/chatbot/page.tsx",
-                lineNumber: 142,
+                lineNumber: 226,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1799,46 +1662,28 @@ function ChatbotPage() {
                                                     className: "w-8 h-8 text-cyan-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 233,
                                                     columnNumber: 17
                                                 }, this),
-                                                "Mithuru - TrustLine Support"
+                                                "TrustLine Support Chat"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 148,
+                                            lineNumber: 232,
                                             columnNumber: 15
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-center gap-3 mt-1",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-slate-600 text-sm",
-                                                    children: "24/7 AI Support • All conversations are encrypted"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 153,
-                                                    columnNumber: 17
-                                                }, this),
-                                                sessionState && sessionState.mode !== 'support' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
-                                                    variant: "secondary",
-                                                    className: "text-xs",
-                                                    children: getModeLabel(sessionState.mode)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 155,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-slate-600 text-sm",
+                                            children: "24/7 Support available • All conversations are encrypted"
+                                        }, void 0, false, {
                                             fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 152,
+                                            lineNumber: 236,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/chatbot/page.tsx",
-                                    lineNumber: 147,
+                                    lineNumber: 231,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1850,353 +1695,468 @@ function ChatbotPage() {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/app/chatbot/page.tsx",
-                                        lineNumber: 167,
+                                        lineNumber: 244,
                                         columnNumber: 29
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$moon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Moon$3e$__["Moon"], {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/app/chatbot/page.tsx",
-                                        lineNumber: 167,
+                                        lineNumber: 244,
                                         columnNumber: 59
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/chatbot/page.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 238,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/chatbot/page.tsx",
-                            lineNumber: 146,
+                            lineNumber: 230,
                             columnNumber: 11
                         }, this),
-                        sessionState?.complaint_submitted && sessionState.tracking_id && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "mb-4 bg-green-50 border-green-200",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-                                className: "pt-6",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex gap-3",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                            className: `flex-1 flex flex-col mb-4 ${isDarkMode ? 'bg-slate-800 border-slate-700' : ''}`,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
+                                    className: `flex-1 overflow-y-auto p-6 space-y-4 ${isDarkMode ? 'bg-slate-800' : ''}`,
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
-                                            className: "w-6 h-6 text-green-600 flex-shrink-0 mt-1"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 176,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "font-semibold text-green-900",
-                                                    children: "Complaint Filed Successfully"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 178,
-                                                    columnNumber: 21
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-sm text-green-800 mt-1",
+                                        messages.map((msg)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: `flex ${msg.type === 'user' ? 'justify-end' : 'justify-start'}`,
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: `max-w-xs lg:max-w-md xl:max-w-lg px-4 py-3 rounded-lg ${msg.type === 'user' ? 'bg-cyan-600 text-white rounded-br-none' : isDarkMode ? 'bg-slate-700 text-white rounded-bl-none' : 'bg-slate-100 text-slate-900 rounded-bl-none'}`,
                                                     children: [
-                                                        "Tracking ID: ",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                            children: sessionState.tracking_id
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-sm whitespace-pre-wrap break-words",
+                                                            children: msg.content
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/chatbot/page.tsx",
-                                                            lineNumber: 180,
-                                                            columnNumber: 36
+                                                            lineNumber: 263,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: `text-xs mt-1 ${msg.type === 'user' ? 'text-cyan-100' : 'text-slate-500'}`,
+                                                            children: msg.timestamp.toLocaleTimeString([], {
+                                                                hour: '2-digit',
+                                                                minute: '2-digit'
+                                                            })
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/chatbot/page.tsx",
+                                                            lineNumber: 264,
+                                                            columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 179,
-                                                    columnNumber: 21
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-sm text-green-700 mt-2",
-                                                    children: "Save this ID to track your complaint."
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 182,
-                                                    columnNumber: 21
-                                                }, this),
-                                                !isGuest && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                                    asChild: true,
-                                                    size: "sm",
-                                                    className: "mt-3 bg-green-600 hover:bg-green-700",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/dashboard",
-                                                        children: "View Dashboard"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/chatbot/page.tsx",
-                                                        lineNumber: 185,
-                                                        columnNumber: 25
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 184,
-                                                    columnNumber: 23
+                                                    lineNumber: 254,
+                                                    columnNumber: 19
                                                 }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            }, msg.id, false, {
+                                                fileName: "[project]/app/chatbot/page.tsx",
+                                                lineNumber: 253,
+                                                columnNumber: 17
+                                            }, this)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            ref: messagesEndRef
+                                        }, void 0, false, {
                                             fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 177,
-                                            columnNumber: 19
+                                            lineNumber: 270,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/chatbot/page.tsx",
-                                    lineNumber: 175,
-                                    columnNumber: 17
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/app/chatbot/page.tsx",
-                                lineNumber: 174,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/app/chatbot/page.tsx",
-                            lineNumber: 173,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: `flex-1 flex flex-col mb-4 overflow-hidden ${isDarkMode ? 'bg-slate-800 border-slate-700' : ''}`,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-                                    className: `flex-1 overflow-y-auto p-6 space-y-4 ${isDarkMode ? 'bg-slate-800' : ''}`,
-                                    children: isInitializing ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex items-center justify-center h-full",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-center",
+                                    lineNumber: 251,
+                                    columnNumber: 13
+                                }, this),
+                                getQuickReplies().length > 0 && step !== 'details' && step !== 'submitted' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: `px-6 py-4 border-t ${isDarkMode ? 'border-slate-700 bg-slate-750' : 'border-slate-200'}`,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: `text-xs font-medium mb-3 ${isDarkMode ? 'text-slate-400' : 'text-slate-600'}`,
+                                            children: "Quick replies:"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/chatbot/page.tsx",
+                                            lineNumber: 276,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex flex-wrap gap-2",
+                                            children: getQuickReplies().map((reply, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                                    variant: "outline",
+                                                    size: "sm",
+                                                    onClick: ()=>handleQuickReply(reply),
+                                                    disabled: isLoading,
+                                                    className: isDarkMode ? 'border-slate-600 text-white hover:bg-slate-700' : '',
+                                                    children: reply
+                                                }, idx, false, {
+                                                    fileName: "[project]/app/chatbot/page.tsx",
+                                                    lineNumber: 279,
+                                                    columnNumber: 21
+                                                }, this))
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/chatbot/page.tsx",
+                                            lineNumber: 277,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/chatbot/page.tsx",
+                                    lineNumber: 275,
+                                    columnNumber: 15
+                                }, this),
+                                step === 'details' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                                    onSubmit: handleSubmitDetails,
+                                    className: `border-t ${isDarkMode ? 'border-slate-700 bg-slate-750' : 'border-slate-200'} p-6 space-y-4`,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Textarea"], {
+                                            placeholder: "Describe what happened in detail...",
+                                            value: description,
+                                            onChange: (e)=>setDescription(e.target.value),
+                                            disabled: isLoading,
+                                            className: isDarkMode ? 'bg-slate-700 border-slate-600 text-white' : ''
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/chatbot/page.tsx",
+                                            lineNumber: 297,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                            type: "submit",
+                                            disabled: isLoading || !description.trim(),
+                                            className: "w-full bg-cyan-600 hover:bg-cyan-700",
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader$3e$__["Loader"], {
-                                                    className: "w-8 h-8 animate-spin text-cyan-600 mx-auto mb-3"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__["Send"], {
+                                                    className: "w-4 h-4 mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 201,
-                                                    columnNumber: 21
+                                                    lineNumber: 305,
+                                                    columnNumber: 19
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: `text-sm ${isDarkMode ? 'text-slate-400' : 'text-slate-600'}`,
-                                                    children: "Connecting to Mithuru..."
+                                                "Continue"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/chatbot/page.tsx",
+                                            lineNumber: 304,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/chatbot/page.tsx",
+                                    lineNumber: 296,
+                                    columnNumber: 15
+                                }, this),
+                                step === 'evidence' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: `border-t ${isDarkMode ? 'border-slate-700 bg-slate-750' : 'border-slate-200'} p-6 space-y-4`,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
+                                                    htmlFor: "evidence",
+                                                    className: isDarkMode ? 'text-white' : '',
+                                                    children: "Upload Evidence"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 202,
-                                                    columnNumber: 21
+                                                    lineNumber: 315,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "mt-2 border-2 border-dashed border-slate-300 rounded-lg p-6 text-center cursor-pointer hover:border-cyan-400 transition-colors",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            id: "evidence",
+                                                            type: "file",
+                                                            multiple: true,
+                                                            onChange: handleFileUpload,
+                                                            disabled: isLoading || uploadedFiles.length >= 10,
+                                                            className: "hidden"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/chatbot/page.tsx",
+                                                            lineNumber: 319,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            htmlFor: "evidence",
+                                                            className: "cursor-pointer block",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$upload$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Upload$3e$__["Upload"], {
+                                                                    className: "w-8 h-8 mx-auto mb-2 text-slate-400"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/chatbot/page.tsx",
+                                                                    lineNumber: 328,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: `text-sm font-medium ${isDarkMode ? 'text-white' : 'text-slate-900'}`,
+                                                                    children: "Click to upload or drag and drop"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/chatbot/page.tsx",
+                                                                    lineNumber: 329,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "text-xs text-slate-500 mt-1",
+                                                                    children: "PNG, JPG, PDF, MP4, etc. Max 50MB each"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/chatbot/page.tsx",
+                                                                    lineNumber: 330,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/app/chatbot/page.tsx",
+                                                            lineNumber: 327,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/chatbot/page.tsx",
+                                                    lineNumber: 318,
+                                                    columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 200,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/chatbot/page.tsx",
-                                        lineNumber: 199,
-                                        columnNumber: 17
-                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
-                                        children: [
-                                            messages.map((msg)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: `flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`,
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: `flex gap-2 max-w-xs lg:max-w-md xl:max-w-lg ${msg.sender === 'user' ? 'flex-row-reverse' : ''}`,
+                                            lineNumber: 314,
+                                            columnNumber: 17
+                                        }, this),
+                                        uploadedFiles.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "space-y-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-sm font-medium",
+                                                    children: "Uploaded files:"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/chatbot/page.tsx",
+                                                    lineNumber: 337,
+                                                    columnNumber: 21
+                                                }, this),
+                                                uploadedFiles.map((file, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: `flex items-center justify-between p-3 rounded border ${isDarkMode ? 'border-slate-600 bg-slate-700' : 'border-slate-200 bg-slate-50'}`,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: `w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${msg.sender === 'user' ? 'bg-cyan-600' : 'bg-slate-600'}`,
-                                                                children: msg.sender === 'user' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
-                                                                    className: "w-4 h-4 text-white"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/chatbot/page.tsx",
-                                                                    lineNumber: 216,
-                                                                    columnNumber: 29
-                                                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Bot$3e$__["Bot"], {
-                                                                    className: "w-4 h-4 text-white"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/chatbot/page.tsx",
-                                                                    lineNumber: 218,
-                                                                    columnNumber: 29
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/chatbot/page.tsx",
-                                                                lineNumber: 212,
-                                                                columnNumber: 25
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: `px-4 py-3 rounded-lg ${msg.sender === 'user' ? 'bg-cyan-600 text-white rounded-br-none' : isDarkMode ? 'bg-slate-700 text-white rounded-bl-none' : 'bg-slate-100 text-slate-900 rounded-bl-none'}`,
+                                                                className: "flex items-center gap-2",
                                                                 children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                        className: "text-sm whitespace-pre-wrap break-words",
-                                                                        children: msg.content
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2d$text$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FileText$3e$__["FileText"], {
+                                                                        className: "w-4 h-4 text-cyan-600"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/chatbot/page.tsx",
-                                                                        lineNumber: 230,
+                                                                        lineNumber: 341,
                                                                         columnNumber: 27
                                                                     }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                        className: `text-xs mt-1 ${msg.sender === 'user' ? 'text-cyan-100' : isDarkMode ? 'text-slate-400' : 'text-slate-500'}`,
-                                                                        children: new Date(msg.created_at).toLocaleTimeString([], {
-                                                                            hour: '2-digit',
-                                                                            minute: '2-digit'
-                                                                        })
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: `text-sm ${isDarkMode ? 'text-white' : 'text-slate-900'}`,
+                                                                        children: file.name
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/chatbot/page.tsx",
-                                                                        lineNumber: 231,
+                                                                        lineNumber: 342,
+                                                                        columnNumber: 27
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "text-xs text-slate-500",
+                                                                        children: [
+                                                                            "(",
+                                                                            (file.size / 1024 / 1024).toFixed(2),
+                                                                            " MB)"
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/app/chatbot/page.tsx",
+                                                                        lineNumber: 343,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/chatbot/page.tsx",
-                                                                lineNumber: 221,
+                                                                lineNumber: 340,
                                                                 columnNumber: 25
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                                                type: "button",
+                                                                variant: "ghost",
+                                                                size: "sm",
+                                                                onClick: ()=>removeFile(idx),
+                                                                className: "h-6",
+                                                                children: "✕"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/chatbot/page.tsx",
+                                                                lineNumber: 345,
+                                                                columnNumber: 25
+                                                            }, this)
+                                                        ]
+                                                    }, idx, true, {
+                                                        fileName: "[project]/app/chatbot/page.tsx",
+                                                        lineNumber: 339,
+                                                        columnNumber: 23
+                                                    }, this))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/chatbot/page.tsx",
+                                            lineNumber: 336,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex gap-3 pt-4",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                                onClick: handleSubmitReport,
+                                                disabled: isLoading,
+                                                className: "flex-1 bg-cyan-600 hover:bg-cyan-700",
+                                                children: [
+                                                    isLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader$3e$__["Loader"], {
+                                                        className: "w-4 h-4 mr-2 animate-spin"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/chatbot/page.tsx",
+                                                        lineNumber: 365,
+                                                        columnNumber: 34
+                                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
+                                                        className: "w-4 h-4 mr-2"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/chatbot/page.tsx",
+                                                        lineNumber: 365,
+                                                        columnNumber: 85
+                                                    }, this),
+                                                    isLoading ? 'Submitting...' : 'Submit Report'
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/chatbot/page.tsx",
+                                                lineNumber: 360,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/chatbot/page.tsx",
+                                            lineNumber: 359,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/chatbot/page.tsx",
+                                    lineNumber: 313,
+                                    columnNumber: 15
+                                }, this),
+                                step === 'submitted' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: `border-t ${isDarkMode ? 'border-slate-700 bg-slate-750' : 'border-slate-200'} p-6`,
+                                    children: caseId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "space-y-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                                                className: "bg-green-50 border-green-200",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
+                                                    className: "pt-6",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex gap-3",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
+                                                                className: "w-6 h-6 text-green-600 flex-shrink-0 mt-1"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/chatbot/page.tsx",
+                                                                lineNumber: 380,
+                                                                columnNumber: 27
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        className: "font-semibold text-green-900",
+                                                                        children: "Report Submitted Successfully"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/chatbot/page.tsx",
+                                                                        lineNumber: 382,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        className: "text-sm text-green-800 mt-1",
+                                                                        children: [
+                                                                            "Case ID: ",
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                                children: caseId
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/app/chatbot/page.tsx",
+                                                                                lineNumber: 383,
+                                                                                columnNumber: 81
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/app/chatbot/page.tsx",
+                                                                        lineNumber: 383,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        className: "text-sm text-green-700 mt-2",
+                                                                        children: "Save this case ID to track your report."
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/app/chatbot/page.tsx",
+                                                                        lineNumber: 384,
+                                                                        columnNumber: 29
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/app/chatbot/page.tsx",
+                                                                lineNumber: 381,
+                                                                columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/chatbot/page.tsx",
-                                                        lineNumber: 211,
-                                                        columnNumber: 23
+                                                        lineNumber: 379,
+                                                        columnNumber: 25
                                                     }, this)
-                                                }, msg.id, false, {
+                                                }, void 0, false, {
                                                     fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 210,
-                                                    columnNumber: 21
-                                                }, this)),
-                                            isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex justify-start",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex gap-2",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "w-8 h-8 rounded-full bg-slate-600 flex items-center justify-center flex-shrink-0",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bot$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Bot$3e$__["Bot"], {
-                                                                className: "w-4 h-4 text-white"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/chatbot/page.tsx",
-                                                                lineNumber: 242,
-                                                                columnNumber: 27
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/chatbot/page.tsx",
-                                                            lineNumber: 241,
-                                                            columnNumber: 25
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: `px-4 py-3 rounded-lg rounded-bl-none ${isDarkMode ? 'bg-slate-700' : 'bg-slate-100'}`,
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "flex gap-1",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        className: `w-2 h-2 rounded-full animate-bounce ${isDarkMode ? 'bg-slate-400' : 'bg-slate-400'}`,
-                                                                        style: {
-                                                                            animationDelay: '0ms'
-                                                                        }
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/chatbot/page.tsx",
-                                                                        lineNumber: 246,
-                                                                        columnNumber: 29
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        className: `w-2 h-2 rounded-full animate-bounce ${isDarkMode ? 'bg-slate-400' : 'bg-slate-400'}`,
-                                                                        style: {
-                                                                            animationDelay: '150ms'
-                                                                        }
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/chatbot/page.tsx",
-                                                                        lineNumber: 247,
-                                                                        columnNumber: 29
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        className: `w-2 h-2 rounded-full animate-bounce ${isDarkMode ? 'bg-slate-400' : 'bg-slate-400'}`,
-                                                                        style: {
-                                                                            animationDelay: '300ms'
-                                                                        }
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/chatbot/page.tsx",
-                                                                        lineNumber: 248,
-                                                                        columnNumber: 29
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/app/chatbot/page.tsx",
-                                                                lineNumber: 245,
-                                                                columnNumber: 27
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/chatbot/page.tsx",
-                                                            lineNumber: 244,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/chatbot/page.tsx",
-                                                    lineNumber: 240,
+                                                    lineNumber: 378,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/chatbot/page.tsx",
-                                                lineNumber: 239,
+                                                lineNumber: 377,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                ref: messagesEndRef
-                                            }, void 0, false, {
+                                                className: "flex flex-col sm:flex-row gap-3",
+                                                children: [
+                                                    !isGuest && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                                        asChild: true,
+                                                        className: "flex-1 bg-cyan-600 hover:bg-cyan-700",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/dashboard",
+                                                            children: "View Dashboard"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/chatbot/page.tsx",
+                                                            lineNumber: 393,
+                                                            columnNumber: 27
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/chatbot/page.tsx",
+                                                        lineNumber: 392,
+                                                        columnNumber: 25
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                                        onClick: ()=>window.location.reload(),
+                                                        variant: "outline",
+                                                        className: "flex-1",
+                                                        children: "Start New Report"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/chatbot/page.tsx",
+                                                        lineNumber: 396,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/chatbot/page.tsx",
-                                                lineNumber: 254,
-                                                columnNumber: 19
+                                                lineNumber: 390,
+                                                columnNumber: 21
                                             }, this)
                                         ]
-                                    }, void 0, true)
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/chatbot/page.tsx",
+                                        lineNumber: 376,
+                                        columnNumber: 19
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/chatbot/page.tsx",
-                                    lineNumber: 197,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-                                    onSubmit: handleSendMessage,
-                                    className: `border-t ${isDarkMode ? 'border-slate-700 bg-slate-750' : 'border-slate-200'} p-4 flex gap-3`,
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
-                                            ref: inputRef,
-                                            placeholder: "Type your message...",
-                                            value: inputText,
-                                            onChange: (e)=>setInputText(e.target.value),
-                                            disabled: isLoading || isInitializing,
-                                            className: `flex-1 ${isDarkMode ? 'bg-slate-700 border-slate-600 text-white' : ''}`
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 264,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                            type: "submit",
-                                            disabled: isLoading || isInitializing || !inputText.trim(),
-                                            className: "bg-cyan-600 hover:bg-cyan-700",
-                                            children: isLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader$3e$__["Loader"], {
-                                                className: "w-4 h-4 animate-spin"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/chatbot/page.tsx",
-                                                lineNumber: 277,
-                                                columnNumber: 30
-                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__["Send"], {
-                                                className: "w-4 h-4"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/chatbot/page.tsx",
-                                                lineNumber: 277,
-                                                columnNumber: 76
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 272,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/chatbot/page.tsx",
-                                    lineNumber: 260,
-                                    columnNumber: 13
+                                    lineNumber: 374,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/chatbot/page.tsx",
-                            lineNumber: 195,
+                            lineNumber: 249,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Alert"], {
@@ -2206,43 +2166,43 @@ function ChatbotPage() {
                                     className: "h-4 w-4"
                                 }, void 0, false, {
                                     fileName: "[project]/app/chatbot/page.tsx",
-                                    lineNumber: 284,
+                                    lineNumber: 412,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$alert$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AlertDescription"], {
                                     className: "text-cyan-900",
-                                    children: "All conversations are confidential. You can track your case status by logging in to your dashboard or using your Tracking ID."
+                                    children: "All reports are confidential. You can track your case status by logging in to your dashboard or using your Case ID."
                                 }, void 0, false, {
                                     fileName: "[project]/app/chatbot/page.tsx",
-                                    lineNumber: 285,
+                                    lineNumber: 413,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/chatbot/page.tsx",
-                            lineNumber: 283,
+                            lineNumber: 411,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/chatbot/page.tsx",
-                    lineNumber: 144,
+                    lineNumber: 228,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/chatbot/page.tsx",
-                lineNumber: 143,
+                lineNumber: 227,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/app/chatbot/page.tsx",
-                lineNumber: 291,
+                lineNumber: 419,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true);
 }
-_s(ChatbotPage, "t5I/o24cwuaJWvVdB4N/UIMslN4=", false, function() {
+_s(ChatbotPage, "8W5g3GinByHT5Q5FieAEAykyX98=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"]
     ];
@@ -2256,4 +2216,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 ]);
 
-//# sourceMappingURL=_03f4606a._.js.map
+//# sourceMappingURL=_0973d6d7._.js.map
