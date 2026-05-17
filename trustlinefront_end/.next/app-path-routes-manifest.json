@@ -1,0 +1,19 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/evidence/page": "/admin/evidence",
+  "/admin/page": "/admin",
+  "/admin/reports/[id]/page": "/admin/reports/[id]",
+  "/admin/reports/page": "/admin/reports",
+  "/admin/settings/page": "/admin/settings",
+  "/admin/users/page": "/admin/users",
+  "/chatbot/page": "/chatbot",
+  "/dashboard/page": "/dashboard",
+  "/login/page": "/login",
+  "/page": "/",
+  "/register/page": "/register",
+  "/reports/[id]/page": "/reports/[id]",
+  "/reports/page": "/reports",
+  "/resources/[slug]/page": "/resources/[slug]",
+  "/resources/page": "/resources"
+}
