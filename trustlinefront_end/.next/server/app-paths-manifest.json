@@ -1,1 +1,19 @@
-
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/evidence/page": "app/admin/evidence/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/reports/[id]/page": "app/admin/reports/[id]/page.js",
+  "/admin/reports/page": "app/admin/reports/page.js",
+  "/admin/settings/page": "app/admin/settings/page.js",
+  "/admin/users/page": "app/admin/users/page.js",
+  "/chatbot/page": "app/chatbot/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/register/page": "app/register/page.js",
+  "/reports/[id]/page": "app/reports/[id]/page.js",
+  "/reports/page": "app/reports/page.js",
+  "/resources/[slug]/page": "app/resources/[slug]/page.js",
+  "/resources/page": "app/resources/page.js"
+}
