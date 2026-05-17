@@ -35,28 +35,4 @@ const mod = __turbopack_context__.x("next/dist/server/app-render/dynamic-access-
 
 module.exports = mod;
 }),
-"[externals]/path [external] (path, cjs)", ((__turbopack_context__, module, exports) => {
-
-const mod = __turbopack_context__.x("path", () => require("path"));
-
-module.exports = mod;
-}),
-"[externals]/next/dist/compiled/@opentelemetry/api [external] (next/dist/compiled/@opentelemetry/api, cjs)", ((__turbopack_context__, module, exports) => {
-
-const mod = __turbopack_context__.x("next/dist/compiled/@opentelemetry/api", () => require("next/dist/compiled/@opentelemetry/api"));
-
-module.exports = mod;
-}),
-"[externals]/util [external] (util, cjs)", ((__turbopack_context__, module, exports) => {
-
-const mod = __turbopack_context__.x("util", () => require("util"));
-
-module.exports = mod;
-}),
-"[externals]/module [external] (module, cjs)", ((__turbopack_context__, module, exports) => {
-
-const mod = __turbopack_context__.x("module", () => require("module"));
-
-module.exports = mod;
-}),
 ];
