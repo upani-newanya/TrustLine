@@ -1,0 +1,29 @@
+{
+  "user_input": "hi am thatushi my sexusal photograpshs was exposed to the internet by some 3rd party",
+  "understanding": {
+    "distress_label": "suicide",
+    "distress_conf": 0.7144520878791809,
+    "emotion_label": "sadness",
+    "emotion_conf": 0.3623334765434265,
+    "summary": "User expresses sadness with confidence 0.36; distress=suicide (0.71)",
+    "intent": "general"
+  },
+  "complaint_draft": "Complaint summary:\nUser reports: hi am thatushi my sexusal photograpshs was exposed to the internet by some 3rd party\n\nSuggested actions:\n1) Contact your bank's fraud department and request a chargeback.\n2) Report the incident to the platform via their abuse/report form.\n3) Preserve evidence: Screenshots of suspicious activity, transaction records, timestamps, message headers if available.\n4) Change passwords and enable 2FA.\n\nDesired outcome: Investigation and remedial action",
+  "metadata": {
+    "who": "tharushi",
+    "what": "hi am thatushi my sexusal photograpshs was exposed to the internet by some 3rd party",
+    "when": "",
+    "where": "",
+    "evidence": "Screenshots of suspicious activity, transaction records, timestamps, message headers if available.",
+    "desired_outcome": "Investigation and remedial action",
+    "phone": "4757557747474",
+    "address": "fbifibfbiv",
+    "guardian_phone": "535344555",
+    "platform": "abc web",
+    "group_name": "no",
+    "links": "dnnfnnnnrngnrg",
+    "publisher_name": "no",
+    "shared_with": "yes"
+  },
+  "case_id": "TL-20260326-2020"
+}

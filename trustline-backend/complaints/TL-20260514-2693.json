@@ -1,0 +1,47 @@
+{
+  "case_id": "TL-20260514-2693",
+  "created_at": "2026-05-14T21:07:04.093037",
+  "updated_at": "2026-05-14T21:07:04.093037",
+  "records": [
+    {
+      "user_input": "yes i have",
+      "incident_type": "scam",
+      "collected_fields": {
+        "incident_description": "Hi i need your help i got scammed",
+        "victim_name": "Amanda Warnakula",
+        "money_lost": "yes",
+        "scam_type": "yes it was a invesment scam",
+        "platform_or_method": "phone",
+        "victim_phone": "0817765675",
+        "guardian_phone": "0817765675",
+        "screenshots_available": "yes"
+      },
+      "emotional_state": {
+        "dominant_emotion": "joy",
+        "distress_label": "non-suicide",
+        "suicide_risk": false
+      },
+      "metadata": {
+        "incident_description": "Hi i need your help i got scammed",
+        "victim_name": "Amanda Warnakula",
+        "money_lost": "yes",
+        "scam_type": "yes it was a invesment scam",
+        "platform_or_method": "phone",
+        "victim_phone": "0817765675",
+        "guardian_phone": "0817765675",
+        "screenshots_available": "yes"
+      }
+    }
+  ],
+  "metadata": {
+    "incident_description": "Hi i need your help i got scammed",
+    "victim_name": "Amanda Warnakula",
+    "money_lost": "yes",
+    "scam_type": "yes it was a invesment scam",
+    "platform_or_method": "phone",
+    "victim_phone": "0817765675",
+    "guardian_phone": "0817765675",
+    "screenshots_available": "yes"
+  },
+  "status": "open"
+}

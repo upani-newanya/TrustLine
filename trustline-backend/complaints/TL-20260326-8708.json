@@ -1,0 +1,21 @@
+{
+  "user_input": "i dont have any friend to talk about this",
+  "understanding": {
+    "distress_label": "non-suicide",
+    "distress_conf": 0.9955267310142517,
+    "emotion_label": "sadness",
+    "emotion_conf": 0.5794628858566284,
+    "summary": "User expresses sadness with confidence 0.58; distress=non-suicide (1.00)",
+    "intent": "general"
+  },
+  "complaint_draft": "Complaint summary:\nUser reports: i dont have any friend to talk about this\n\nSuggested actions:\n1) Contact your bank's fraud department and request a chargeback.\n2) Report the incident to the platform via their abuse/report form.\n3) Preserve evidence: Screenshots of suspicious activity, transaction records, timestamps, message headers if available.\n4) Change passwords and enable 2FA.\n\nDesired outcome: Investigation and remedial action",
+  "metadata": {
+    "who": "",
+    "what": "i dont have any friend to talk about this",
+    "when": "",
+    "where": "",
+    "evidence": "Screenshots of suspicious activity, transaction records, timestamps, message headers if available.",
+    "desired_outcome": "Investigation and remedial action"
+  },
+  "case_id": "TL-20260326-8708"
+}

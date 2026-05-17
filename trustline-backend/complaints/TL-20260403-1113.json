@@ -1,0 +1,62 @@
+{
+  "case_id": "TL-20260403-1113",
+  "created_at": "2026-04-03T22:07:40.244839",
+  "updated_at": "2026-04-03T22:07:40.244839",
+  "records": [
+    {
+      "user_input": "yes 67889900",
+      "incident_type": "bank_fraud",
+      "collected_fields": {
+        "incident_description": "i dont know",
+        "victim_name": "i am dhanushka pathirana",
+        "unauthorized_transactions_ongoing": "no",
+        "bank_name": "adb",
+        "amount_lost": "6000lkr",
+        "bank_contacted": "yes",
+        "when_discovered": "03/04/2026",
+        "otp_shared": "yes",
+        "screenshots_available": "no",
+        "transaction_time": "03/04/2026",
+        "branch_name": "balangoda",
+        "account_number": "556688990",
+        "transaction_reference": "yes 67889900"
+      },
+      "emotional_state": {
+        "dominant_emotion": "neutral",
+        "distress_label": "non-suicide",
+        "suicide_risk": false
+      },
+      "metadata": {
+        "incident_description": "i dont know",
+        "victim_name": "i am dhanushka pathirana",
+        "unauthorized_transactions_ongoing": "no",
+        "bank_name": "adb",
+        "amount_lost": "6000lkr",
+        "bank_contacted": "yes",
+        "when_discovered": "03/04/2026",
+        "otp_shared": "yes",
+        "screenshots_available": "no",
+        "transaction_time": "03/04/2026",
+        "branch_name": "balangoda",
+        "account_number": "556688990",
+        "transaction_reference": "yes 67889900"
+      }
+    }
+  ],
+  "metadata": {
+    "incident_description": "i dont know",
+    "victim_name": "i am dhanushka pathirana",
+    "unauthorized_transactions_ongoing": "no",
+    "bank_name": "adb",
+    "amount_lost": "6000lkr",
+    "bank_contacted": "yes",
+    "when_discovered": "03/04/2026",
+    "otp_shared": "yes",
+    "screenshots_available": "no",
+    "transaction_time": "03/04/2026",
+    "branch_name": "balangoda",
+    "account_number": "556688990",
+    "transaction_reference": "yes 67889900"
+  },
+  "status": "open"
+}

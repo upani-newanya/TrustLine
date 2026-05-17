@@ -1,0 +1,50 @@
+{
+  "case_id": "TL-20260514-5909",
+  "created_at": "2026-05-14T21:12:54.002958",
+  "updated_at": "2026-05-14T21:12:54.002958",
+  "records": [
+    {
+      "user_input": "via a bank transfer",
+      "incident_type": "scam",
+      "collected_fields": {
+        "incident_description": "i got scammed yesterday",
+        "when_discovered": "yesterday",
+        "victim_name": "yes",
+        "money_lost": "yes",
+        "scam_type": "invesment scam",
+        "platform_or_method": "via mobile phone",
+        "screenshots_available": "yes",
+        "scammer_contact_info": "yes i have",
+        "transaction_details": "bank transfer"
+      },
+      "emotional_state": {
+        "dominant_emotion": "sadness",
+        "distress_label": "non-suicide",
+        "suicide_risk": false
+      },
+      "metadata": {
+        "incident_description": "i got scammed yesterday",
+        "when_discovered": "yesterday",
+        "victim_name": "yes",
+        "money_lost": "yes",
+        "scam_type": "invesment scam",
+        "platform_or_method": "via mobile phone",
+        "screenshots_available": "yes",
+        "scammer_contact_info": "yes i have",
+        "transaction_details": "bank transfer"
+      }
+    }
+  ],
+  "metadata": {
+    "incident_description": "i got scammed yesterday",
+    "when_discovered": "yesterday",
+    "victim_name": "yes",
+    "money_lost": "yes",
+    "scam_type": "invesment scam",
+    "platform_or_method": "via mobile phone",
+    "screenshots_available": "yes",
+    "scammer_contact_info": "yes i have",
+    "transaction_details": "bank transfer"
+  },
+  "status": "open"
+}

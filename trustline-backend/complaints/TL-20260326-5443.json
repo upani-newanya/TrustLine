@@ -1,0 +1,21 @@
+{
+  "user_input": "oky thank you verymuch",
+  "understanding": {
+    "distress_label": "non-suicide",
+    "distress_conf": 0.9897758960723877,
+    "emotion_label": "joy",
+    "emotion_conf": 0.981196939945221,
+    "summary": "User expresses joy with confidence 0.98; distress=non-suicide (0.99)",
+    "intent": "general"
+  },
+  "complaint_draft": "Complaint summary:\nUser reports: oky thank you verymuch\n\nSuggested actions:\n1) Contact your bank's fraud department and request a chargeback.\n2) Report the incident to the platform via their abuse/report form.\n3) Preserve evidence: Screenshots of suspicious activity, transaction records, timestamps, message headers if available.\n4) Change passwords and enable 2FA.\n\nDesired outcome: Investigation and remedial action",
+  "metadata": {
+    "who": "",
+    "what": "oky thank you verymuch",
+    "when": "",
+    "where": "",
+    "evidence": "Screenshots of suspicious activity, transaction records, timestamps, message headers if available.",
+    "desired_outcome": "Investigation and remedial action"
+  },
+  "case_id": "TL-20260326-5443"
+}

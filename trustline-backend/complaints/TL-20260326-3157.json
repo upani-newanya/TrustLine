@@ -1,0 +1,30 @@
+{
+  "user_input": "Hi am hirushi my privet photograps was exposed to a porn website by some one i need a help",
+  "understanding": {
+    "distress_label": "non-suicide",
+    "distress_conf": 0.9980549812316895,
+    "emotion_label": "sadness",
+    "emotion_conf": 0.5028807520866394,
+    "summary": "User expresses sadness with confidence 0.50; distress=non-suicide (1.00)",
+    "intent": "general"
+  },
+  "complaint_draft": "Complaint summary:\nUser reports: Hi am hirushi my privet photograps was exposed to a porn website by some one i need a help\n\nSuggested actions:\n1) Contact your bank's fraud department and request a chargeback.\n2) Report the incident to the platform via their abuse/report form.\n3) Preserve evidence: Screenshots of suspicious activity, transaction records, timestamps, message headers if available.\n4) Change passwords and enable 2FA.\n\nDesired outcome: Investigation and remedial action",
+  "metadata": {
+    "who": "hirushi",
+    "what": "Hi am hirushi my privet photograps was exposed to a porn website by some one i need a help",
+    "when": "",
+    "where": "",
+    "evidence": "Screenshots of suspicious activity, transaction records, timestamps, message headers if available.",
+    "desired_outcome": "Investigation and remedial action",
+    "phone": "09988767",
+    "address": "miriswatte,balangoda",
+    "guardian_phone": "98877666779",
+    "platform": "in website called abc",
+    "group_name": "abc.web",
+    "links": "dnfvnfivniniofdbooi",
+    "publisher_name": "no",
+    "shared_with": "yes",
+    "incident_type": "grnghnb"
+  },
+  "case_id": "TL-20260326-3157"
+}

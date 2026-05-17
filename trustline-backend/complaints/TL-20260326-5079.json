@@ -1,0 +1,25 @@
+{
+  "user_input": "hi  im sanduni my privet photographs was publishd on a public telegram group by 3rd party",
+  "understanding": {
+    "distress_label": "non-suicide",
+    "distress_conf": 0.9944466352462769,
+    "emotion_label": "joy",
+    "emotion_conf": 0.862626314163208,
+    "summary": "User expresses joy with confidence 0.86; distress=non-suicide (0.99)",
+    "intent": "general"
+  },
+  "complaint_draft": "Complaint summary:\nUser reports: hi  im sanduni my privet photographs was publishd on a public telegram group by 3rd party\n\nSuggested actions:\n1) Contact your bank's fraud department and request a chargeback.\n2) Report the incident to the platform via their abuse/report form.\n3) Preserve evidence: Screenshots of suspicious activity, transaction records, timestamps, message headers if available.\n4) Change passwords and enable 2FA.\n\nDesired outcome: Investigation and remedial action",
+  "metadata": {
+    "who": "im sanduni elapatha",
+    "what": "hi  im sanduni my privet photographs was publishd on a public telegram group by 3rd party",
+    "when": "",
+    "where": "",
+    "evidence": "Screenshots of suspicious activity, transaction records, timestamps, message headers if available.",
+    "desired_outcome": "Investigation and remedial action",
+    "phone": "01125656789",
+    "address": "123/4,Imbulpe,Balangoda",
+    "guardian_phone": "01142345667",
+    "platform": "telegram"
+  },
+  "case_id": "TL-20260326-5079"
+}

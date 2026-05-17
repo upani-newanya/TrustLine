@@ -1,0 +1,59 @@
+{
+  "case_id": "TL-20260403-4238",
+  "created_at": "2026-04-03T21:36:41.198005",
+  "updated_at": "2026-04-03T21:36:41.198005",
+  "records": [
+    {
+      "user_input": "yes i have the link",
+      "incident_type": "photo_leak",
+      "collected_fields": {
+        "incident_description": "my personal photos was leaked into a adult website",
+        "content_type": "photo",
+        "victim_name": "amoda rathnayake",
+        "content_still_live": "yes",
+        "platform_name": "abc.web",
+        "blackmail_present": "no",
+        "victim_phone": "098765675903",
+        "guardian_phone": "098765675903",
+        "when_discovered": "3/4/2026",
+        "suspect_known": "yes",
+        "suspect_relationship": "friend",
+        "screenshots_available": "yes"
+      },
+      "emotional_state": {
+        "dominant_emotion": "neutral",
+        "distress_label": "non-suicide",
+        "suicide_risk": false
+      },
+      "metadata": {
+        "incident_description": "my personal photos was leaked into a adult website",
+        "content_type": "photo",
+        "victim_name": "amoda rathnayake",
+        "content_still_live": "yes",
+        "platform_name": "abc.web",
+        "blackmail_present": "no",
+        "victim_phone": "098765675903",
+        "guardian_phone": "098765675903",
+        "when_discovered": "3/4/2026",
+        "suspect_known": "yes",
+        "suspect_relationship": "friend",
+        "screenshots_available": "yes"
+      }
+    }
+  ],
+  "metadata": {
+    "incident_description": "my personal photos was leaked into a adult website",
+    "content_type": "photo",
+    "victim_name": "amoda rathnayake",
+    "content_still_live": "yes",
+    "platform_name": "abc.web",
+    "blackmail_present": "no",
+    "victim_phone": "098765675903",
+    "guardian_phone": "098765675903",
+    "when_discovered": "3/4/2026",
+    "suspect_known": "yes",
+    "suspect_relationship": "friend",
+    "screenshots_available": "yes"
+  },
+  "status": "open"
+}

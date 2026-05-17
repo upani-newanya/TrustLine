@@ -1,0 +1,59 @@
+{
+  "case_id": "TL-20260403-6140",
+  "created_at": "2026-04-03T23:31:10.517125",
+  "updated_at": "2026-04-03T23:31:10.517125",
+  "records": [
+    {
+      "user_input": "yes i have them",
+      "incident_type": "cyberbullying",
+      "collected_fields": {
+        "incident_description": "hi its navoda here i am a social media infulancer after a one mistake vedio there is too much cyberbulling going on me i dont know what tod do",
+        "victim_name": "Navoda Muthukumara",
+        "harassment_ongoing": "yes",
+        "platform_name": "Facebook",
+        "platform_used": "Facebook",
+        "harassment_type": "name calling",
+        "victim_phone": "098778899",
+        "guardian_phone": "098778899",
+        "suspect_known": "yes",
+        "when_discovered": "2/4/2026",
+        "frequency": "this was started int 2/4/2026 and its still happenig",
+        "screenshots_available": "yes"
+      },
+      "emotional_state": {
+        "dominant_emotion": "joy",
+        "distress_label": "non-suicide",
+        "suicide_risk": false
+      },
+      "metadata": {
+        "incident_description": "hi its navoda here i am a social media infulancer after a one mistake vedio there is too much cyberbulling going on me i dont know what tod do",
+        "victim_name": "Navoda Muthukumara",
+        "harassment_ongoing": "yes",
+        "platform_name": "Facebook",
+        "platform_used": "Facebook",
+        "harassment_type": "name calling",
+        "victim_phone": "098778899",
+        "guardian_phone": "098778899",
+        "suspect_known": "yes",
+        "when_discovered": "2/4/2026",
+        "frequency": "this was started int 2/4/2026 and its still happenig",
+        "screenshots_available": "yes"
+      }
+    }
+  ],
+  "metadata": {
+    "incident_description": "hi its navoda here i am a social media infulancer after a one mistake vedio there is too much cyberbulling going on me i dont know what tod do",
+    "victim_name": "Navoda Muthukumara",
+    "harassment_ongoing": "yes",
+    "platform_name": "Facebook",
+    "platform_used": "Facebook",
+    "harassment_type": "name calling",
+    "victim_phone": "098778899",
+    "guardian_phone": "098778899",
+    "suspect_known": "yes",
+    "when_discovered": "2/4/2026",
+    "frequency": "this was started int 2/4/2026 and its still happenig",
+    "screenshots_available": "yes"
+  },
+  "status": "open"
+}

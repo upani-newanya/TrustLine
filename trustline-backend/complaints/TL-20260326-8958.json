@@ -1,0 +1,29 @@
+{
+  "user_input": "hi misturu im pawani my privet phtograps and some veios are exposed to internet",
+  "understanding": {
+    "distress_label": "non-suicide",
+    "distress_conf": 0.9968921542167664,
+    "emotion_label": "joy",
+    "emotion_conf": 0.4888499677181244,
+    "summary": "User expresses joy with confidence 0.49; distress=non-suicide (1.00)",
+    "intent": "general"
+  },
+  "complaint_draft": "Complaint summary:\nUser reports: hi misturu im pawani my privet phtograps and some veios are exposed to internet\n\nSuggested actions:\n1) Contact your bank's fraud department and request a chargeback.\n2) Report the incident to the platform via their abuse/report form.\n3) Preserve evidence: Screenshots of suspicious activity, transaction records, timestamps, message headers if available.\n4) Change passwords and enable 2FA.\n\nDesired outcome: Investigation and remedial action",
+  "metadata": {
+    "who": "pawani",
+    "what": "hi misturu im pawani my privet phtograps and some veios are exposed to internet",
+    "when": "",
+    "where": "",
+    "evidence": "Screenshots of suspicious activity, transaction records, timestamps, message headers if available.",
+    "desired_outcome": "Investigation and remedial action",
+    "phone": "0988778890",
+    "address": "samanalawatte,balangoda",
+    "guardian_phone": "0998777889",
+    "platform": "abc.web",
+    "group_name": "abc.web",
+    "links": "cbbcbccbncncncnn",
+    "publisher_name": "no",
+    "shared_with": "yes with my ex"
+  },
+  "case_id": "TL-20260326-8958"
+}

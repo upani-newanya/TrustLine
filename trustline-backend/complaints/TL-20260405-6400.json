@@ -1,0 +1,59 @@
+{
+  "case_id": "TL-20260405-6400",
+  "created_at": "2026-04-05T11:36:31.321589",
+  "updated_at": "2026-04-05T11:36:31.321589",
+  "records": [
+    {
+      "user_input": "yesterday evening",
+      "incident_type": "porn_site_upload",
+      "collected_fields": {
+        "incident_description": "my personal photos was exposed to internet and some wan exposed them in to a adult porn website",
+        "content_type": "photo",
+        "suspect_known": "yes",
+        "threats_present": "yes",
+        "victim_name": "amali thennakone",
+        "content_still_live": "yes",
+        "platform_link": "abc.com",
+        "platform_name": "abc.com",
+        "blackmail_present": "no",
+        "suspect_relationship": "friend",
+        "screenshots_available": "yes",
+        "when_discovered": "yesterday evening"
+      },
+      "emotional_state": {
+        "dominant_emotion": "joy",
+        "distress_label": "non-suicide",
+        "suicide_risk": false
+      },
+      "metadata": {
+        "incident_description": "my personal photos was exposed to internet and some wan exposed them in to a adult porn website",
+        "content_type": "photo",
+        "suspect_known": "yes",
+        "threats_present": "yes",
+        "victim_name": "amali thennakone",
+        "content_still_live": "yes",
+        "platform_link": "abc.com",
+        "platform_name": "abc.com",
+        "blackmail_present": "no",
+        "suspect_relationship": "friend",
+        "screenshots_available": "yes",
+        "when_discovered": "yesterday evening"
+      }
+    }
+  ],
+  "metadata": {
+    "incident_description": "my personal photos was exposed to internet and some wan exposed them in to a adult porn website",
+    "content_type": "photo",
+    "suspect_known": "yes",
+    "threats_present": "yes",
+    "victim_name": "amali thennakone",
+    "content_still_live": "yes",
+    "platform_link": "abc.com",
+    "platform_name": "abc.com",
+    "blackmail_present": "no",
+    "suspect_relationship": "friend",
+    "screenshots_available": "yes",
+    "when_discovered": "yesterday evening"
+  },
+  "status": "open"
+}
